@@ -45,3 +45,47 @@
   button:hover {
     border-color: #646cff;
   }
+
+  @media (max-width:990px){
+    .header{
+        font-size: 50px;
+    }
+    .fact{
+        font-size: 22px;
+    }
+  }
+  @media (max-width:720px){
+    .header{
+        font-size: 40px;
+    }
+    .fact{
+        font-size: 20px;
+    }
+    .factcontainer{
+        padding: 18px;
+       
+        width: 500px;
+        height: auto;
+        
+    }
+  }
+  @media (max-width:420px){
+    .home{
+        overflow-y: hidden;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .fact{
+        font-size: 15px;
+    }
+    .factcontainer{
+        padding: 15px;
+       
+        width: 300px;
+        height: auto;
+        
+    }
+  }
+
+
