@@ -1,0 +1,47 @@
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.header{
+    font-size: 55px;
+    font-weight: 700;
+    text-align:center ;
+    color: #fff;
+}
+.factcontainer{
+    padding: 20px;
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fact{
+    font-size: 25px;
+    font-size: 600;
+    text-align: center;
+    color: black;
+}
+.container button{
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: #92acbb;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
